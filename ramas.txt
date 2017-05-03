@@ -1,0 +1,12 @@
+para unir ramas, me paro en la rama en la que quiero que se queden los cambios
+		
+		git checkout master
+
+y uso el siguiente comando para que los cambios de la rama "ramanueva" queden en master
+
+		git merge ramanueva
+
+al finalizar estos cambios hacer git push para que los cambios se realicen en el repo remoto
+si quiero eliminar una rama:
+
+		git branch -d ramanueva
